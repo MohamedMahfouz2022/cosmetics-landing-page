@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold text-primary">
-          عناية <span className="text-foreground">جمالك</span>
+          <Link href="#home">عناية <span className="text-foreground">جمالك</span></Link>
         </div>
 
         {/* Desktop Links */}
