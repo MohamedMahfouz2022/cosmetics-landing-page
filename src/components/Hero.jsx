@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -61,18 +62,18 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 1 }}
               className="flex flex-wrap gap-4 justify-center md:justify-start"
             >
-              <a 
+              <Link 
                 href="#products" 
                 className="px-8 py-3 bg-primary text-white font-medium rounded-full shadow-lg shadow-primary/30 hover:bg-primary-hover transition-all hover:-translate-y-1"
               >
                 تسوقي الآن
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="#about" 
                 className="px-8 py-3 border border-primary text-primary font-medium rounded-full hover:bg-primary/5 transition-all"
               >
                 اعرفي المزيد
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
           
